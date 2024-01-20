@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Website</title>
+
+    <!-- manrope google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- tailwind and daisyui  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome icon -->
+    <script
+      src="https://kit.fontawesome.com/578937362c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- tailwind custom color -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-manrope">
+    <header>
+      <!-- banner section -->
+      <section class="container mx-auto">
+        <div class="hero">
+          <div class="hero-content flex-col lg:flex-row">
+            <div>
+              <h1 class="text-7xl font-extrabold">
+                It's good <br />
+                tea time at The <br />
+                Tea House
+              </h1>
+              <p class="py-6">
+                Tea and Botanical Solutions Supplier Give Optimum Satisfaction
+                To Your Taste Buds.
+              </p>
+              <button class="btn btn-primary">Explore Me</button>
+            </div>
+
+            <div>
+              <img src="images/banner.png" class="max-w-sm" />
+              <div class="-mt-20 flex items-center bg-white drop-shadow-lg w-[250px] p-5 gap-3">
+                <div>
+                  <i class="fa-solid fa-star text-5xl text-amber-400"></i>
+                </div>
+                <div>
+                  <h4 class="text-3xl font-extrabold">5.00</h4>
+                  <p>Trust Pilot Ratings</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
